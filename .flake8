@@ -1,0 +1,14 @@
+[flake8]
+per-file-ignores =
+    # imported but unused
+    commands.py: F401
+    conftest.py: F401
+
+
+exclude =
+    .git,
+    __pycache__,
+    dist,
+    alembic,
+    __init__.py
+    */db/base.py
